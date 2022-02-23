@@ -7,7 +7,20 @@
 
 import UIKit
 
+
+//protocol CustomTableViewCellDelegate{
+//    func didTapCustomButton(targetCell: UICollectionViewCell, targetbutton:UIButton)
+//}
+
 class CustomTableViewCell: UITableViewCell {
+    
+    @IBOutlet var mygame: UILabel!
+    @IBOutlet var enemygame: UILabel!
+    @IBOutlet var mypoint: UILabel!
+    @IBOutlet var enemypoint: UILabel!
+    @IBOutlet var foa :UILabel!
+    
+  //  var delegate :CustomTableViewCellDelegate?
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -7,15 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA9A2D152FF63A07EA562EB4 /* Pods_TennisAnalysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E6076E1E74DB0B0618BCCD /* Pods_TennisAnalysis.framework */; };
+		CB012DE027703CFF00A0D916 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB012DDF27703CFF00A0D916 /* SubViewController.swift */; };
+		CB0CBF462774C43A007CE4CE /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF452774C439007CE4CE /* ScoreViewController.swift */; };
+		CB0CBF4827856D42007CE4CE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF4727856D42007CE4CE /* DetailViewController.swift */; };
+		CB0CBF4C27893C82007CE4CE /* MyUINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF4B27893C82007CE4CE /* MyUINavigationViewController.swift */; };
+		CB0CBF52278998BB007CE4CE /* Sub2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF51278998BB007CE4CE /* Sub2ViewController.swift */; };
+		CB0CBF54278DBE51007CE4CE /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF53278DBE51007CE4CE /* ShowViewController.swift */; };
+		CB1DB77D279C3AC2002C8F07 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1DB77B279C3AC2002C8F07 /* CustomCollectionViewCell.xib */; };
+		CB1DB78527A174FA002C8F07 /* 名称未設定のデザイン (3).png in Resources */ = {isa = PBXBuildFile; fileRef = CB1DB78427A174FA002C8F07 /* 名称未設定のデザイン (3).png */; };
+		CB66E17D279BD9DE00B44F4D /* f.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB66E17C279BD9DE00B44F4D /* f.jpeg */; };
+		CB66E181279C39D000B44F4D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66E17F279C39CF00B44F4D /* CustomCollectionViewCell.swift */; };
 		CB6E6563274EEBF90048F4E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6562274EEBF90048F4E5 /* AppDelegate.swift */; };
 		CB6E6565274EEBF90048F4E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6564274EEBF90048F4E5 /* SceneDelegate.swift */; };
 		CB6E6567274EEBF90048F4E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6566274EEBF90048F4E5 /* ViewController.swift */; };
 		CB6E656A274EEBF90048F4E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6E6568274EEBF90048F4E5 /* Main.storyboard */; };
 		CB6E656C274EEBFC0048F4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6E656B274EEBFC0048F4E5 /* Assets.xcassets */; };
 		CB6E656F274EEBFC0048F4E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6E656D274EEBFC0048F4E5 /* LaunchScreen.storyboard */; };
+		CB6E6577274EECBD0048F4E5 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6576274EECBD0048F4E5 /* SigninViewController.swift */; };
+		CB6E657B274EED5C0048F4E5 /* signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6E657A274EED5C0048F4E5 /* signin.storyboard */; };
+		CB6E6580274EF56D0048F4E5 /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6E657F274EF56D0048F4E5 /* g.png */; };
+		CB6E6582274EFB070048F4E5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6581274EFB070048F4E5 /* SignUpViewController.swift */; };
+		CB6E6584274F01170048F4E5 /* sViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6583274F01170048F4E5 /* sViewController.swift */; };
+		CB6E6586274F08EE0048F4E5 /* g071_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB6E6585274F08EE0048F4E5 /* g071_6.jpg */; };
+		CB6E658F2756D9EF0048F4E5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E658D2756D9EF0048F4E5 /* CustomTableViewCell.swift */; };
+		CB6E65902756D9EF0048F4E5 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6E658E2756D9EF0048F4E5 /* CustomTableViewCell.xib */; };
+		CB6E659327576A750048F4E5 /* SyosaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E659127576A740048F4E5 /* SyosaiTableViewCell.swift */; };
+		CB6E659427576A750048F4E5 /* SyosaiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6E659227576A750048F4E5 /* SyosaiTableViewCell.xib */; };
+		CB6E6596275770960048F4E5 /* userPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6595275770960048F4E5 /* userPageViewController.swift */; };
+		CB6E6598275EC7790048F4E5 /* NewValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E6597275EC7790048F4E5 /* NewValueViewController.swift */; };
+		CB6E659A2760101F0048F4E5 /* PckerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E65992760101F0048F4E5 /* PckerViewController.swift */; };
+		CBAFE693278EE9FB005D6186 /* ShowEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFE692278EE9FB005D6186 /* ShowEditViewController.swift */; };
+		CBCA8770278EC41B00C9AE73 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCA876F278EC41B00C9AE73 /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39E6076E1E74DB0B0618BCCD /* Pods_TennisAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TennisAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC57B3C0E47CC311452129E /* Pods-TennisAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisAnalysis.debug.xcconfig"; path = "Target Support Files/Pods-TennisAnalysis/Pods-TennisAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
+		470B833A0E13BCC4FDDB7851 /* Pods-TennisAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TennisAnalysis.release.xcconfig"; path = "Target Support Files/Pods-TennisAnalysis/Pods-TennisAnalysis.release.xcconfig"; sourceTree = "<group>"; };
+		CB012DDF27703CFF00A0D916 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		CB0CBF452774C439007CE4CE /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		CB0CBF4727856D42007CE4CE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CB0CBF4B27893C82007CE4CE /* MyUINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUINavigationViewController.swift; sourceTree = "<group>"; };
+		CB0CBF51278998BB007CE4CE /* Sub2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub2ViewController.swift; sourceTree = "<group>"; };
+		CB0CBF53278DBE51007CE4CE /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		CB1DB77B279C3AC2002C8F07 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		CB1DB78427A174FA002C8F07 /* 名称未設定のデザイン (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定のデザイン (3).png"; sourceTree = "<group>"; };
+		CB66E17C279BD9DE00B44F4D /* f.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f.jpeg; sourceTree = "<group>"; };
+		CB66E17F279C39CF00B44F4D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		CB6E655F274EEBF90048F4E5 /* TennisAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6E6562274EEBF90048F4E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6E6564274EEBF90048F4E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +63,21 @@
 		CB6E656B274EEBFC0048F4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6E656E274EEBFC0048F4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6E6570274EEBFC0048F4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6E6576274EECBD0048F4E5 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		CB6E657A274EED5C0048F4E5 /* signin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signin.storyboard; sourceTree = "<group>"; };
+		CB6E657F274EF56D0048F4E5 /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = g.png; path = TennisAnalysis/g.png; sourceTree = SOURCE_ROOT; };
+		CB6E6581274EFB070048F4E5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CB6E6583274F01170048F4E5 /* sViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sViewController.swift; sourceTree = "<group>"; };
+		CB6E6585274F08EE0048F4E5 /* g071_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = g071_6.jpg; path = TennisAnalysis/g071_6.jpg; sourceTree = SOURCE_ROOT; };
+		CB6E658D2756D9EF0048F4E5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CB6E658E2756D9EF0048F4E5 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		CB6E659127576A740048F4E5 /* SyosaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyosaiTableViewCell.swift; sourceTree = "<group>"; };
+		CB6E659227576A750048F4E5 /* SyosaiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SyosaiTableViewCell.xib; sourceTree = "<group>"; };
+		CB6E6595275770960048F4E5 /* userPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userPageViewController.swift; sourceTree = "<group>"; };
+		CB6E6597275EC7790048F4E5 /* NewValueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewValueViewController.swift; sourceTree = "<group>"; };
+		CB6E65992760101F0048F4E5 /* PckerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PckerViewController.swift; sourceTree = "<group>"; };
+		CBAFE692278EE9FB005D6186 /* ShowEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEditViewController.swift; sourceTree = "<group>"; };
+		CBCA876F278EC41B00C9AE73 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9A2D152FF63A07EA562EB4 /* Pods_TennisAnalysis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		590803E7C483DC58DDECE6AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E6076E1E74DB0B0618BCCD /* Pods_TennisAnalysis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB66E17E279BDA9E00B44F4D /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
 		CB6E6556274EEBF90048F4E5 = {
 			isa = PBXGroup;
 			children = (
 				CB6E6561274EEBF90048F4E5 /* TennisAnalysis */,
 				CB6E6560274EEBF90048F4E5 /* Products */,
+				D8A434BB36BA677551622066 /* Pods */,
+				590803E7C483DC58DDECE6AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +129,57 @@
 			isa = PBXGroup;
 			children = (
 				CB6E6562274EEBF90048F4E5 /* AppDelegate.swift */,
+				CB0CBF4B27893C82007CE4CE /* MyUINavigationViewController.swift */,
+				CB0CBF51278998BB007CE4CE /* Sub2ViewController.swift */,
+				CB1DB77B279C3AC2002C8F07 /* CustomCollectionViewCell.xib */,
+				CB012DDF27703CFF00A0D916 /* SubViewController.swift */,
+				CB0CBF53278DBE51007CE4CE /* ShowViewController.swift */,
+				CBAFE692278EE9FB005D6186 /* ShowEditViewController.swift */,
+				CB6E658D2756D9EF0048F4E5 /* CustomTableViewCell.swift */,
+				CBCA876F278EC41B00C9AE73 /* EditProfileViewController.swift */,
+				CB66E17F279C39CF00B44F4D /* CustomCollectionViewCell.swift */,
+				CB0CBF4727856D42007CE4CE /* DetailViewController.swift */,
+				CB6E659127576A740048F4E5 /* SyosaiTableViewCell.swift */,
+				CB6E659227576A750048F4E5 /* SyosaiTableViewCell.xib */,
+				CB6E658E2756D9EF0048F4E5 /* CustomTableViewCell.xib */,
+				CB6E65992760101F0048F4E5 /* PckerViewController.swift */,
 				CB6E6564274EEBF90048F4E5 /* SceneDelegate.swift */,
 				CB6E6566274EEBF90048F4E5 /* ViewController.swift */,
+				CB0CBF452774C439007CE4CE /* ScoreViewController.swift */,
+				CB6E6595275770960048F4E5 /* userPageViewController.swift */,
+				CB6E6597275EC7790048F4E5 /* NewValueViewController.swift */,
 				CB6E6568274EEBF90048F4E5 /* Main.storyboard */,
+				CB6E6576274EECBD0048F4E5 /* SigninViewController.swift */,
+				CB6E657A274EED5C0048F4E5 /* signin.storyboard */,
+				CB6E6583274F01170048F4E5 /* sViewController.swift */,
+				CB6E6581274EFB070048F4E5 /* SignUpViewController.swift */,
 				CB6E656B274EEBFC0048F4E5 /* Assets.xcassets */,
 				CB6E656D274EEBFC0048F4E5 /* LaunchScreen.storyboard */,
 				CB6E6570274EEBFC0048F4E5 /* Info.plist */,
+				CB6E657C274EF2E60048F4E5 /* image */,
 			);
 			path = TennisAnalysis;
+			sourceTree = "<group>";
+		};
+		CB6E657C274EF2E60048F4E5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CB66E17E279BDA9E00B44F4D /* AppIcon.appiconset */,
+				CB66E17C279BD9DE00B44F4D /* f.jpeg */,
+				CB6E6585274F08EE0048F4E5 /* g071_6.jpg */,
+				CB1DB78427A174FA002C8F07 /* 名称未設定のデザイン (3).png */,
+				CB6E657F274EF56D0048F4E5 /* g.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D8A434BB36BA677551622066 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CC57B3C0E47CC311452129E /* Pods-TennisAnalysis.debug.xcconfig */,
+				470B833A0E13BCC4FDDB7851 /* Pods-TennisAnalysis.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6E6573274EEBFC0048F4E5 /* Build configuration list for PBXNativeTarget "TennisAnalysis" */;
 			buildPhases = (
+				1A543B9E3212EFD9121C2E46 /* [CP] Check Pods Manifest.lock */,
 				CB6E655B274EEBF90048F4E5 /* Sources */,
 				CB6E655C274EEBF90048F4E5 /* Frameworks */,
 				CB6E655D274EEBF90048F4E5 /* Resources */,
+				FEFC6552CB605E194A345577 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +242,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB66E17D279BD9DE00B44F4D /* f.jpeg in Resources */,
+				CB6E657B274EED5C0048F4E5 /* signin.storyboard in Resources */,
+				CB6E6586274F08EE0048F4E5 /* g071_6.jpg in Resources */,
+				CB1DB77D279C3AC2002C8F07 /* CustomCollectionViewCell.xib in Resources */,
+				CB6E659427576A750048F4E5 /* SyosaiTableViewCell.xib in Resources */,
+				CB6E6580274EF56D0048F4E5 /* g.png in Resources */,
+				CB1DB78527A174FA002C8F07 /* 名称未設定のデザイン (3).png in Resources */,
 				CB6E656F274EEBFC0048F4E5 /* LaunchScreen.storyboard in Resources */,
 				CB6E656C274EEBFC0048F4E5 /* Assets.xcassets in Resources */,
 				CB6E656A274EEBF90048F4E5 /* Main.storyboard in Resources */,
+				CB6E65902756D9EF0048F4E5 /* CustomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A543B9E3212EFD9121C2E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TennisAnalysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFC6552CB605E194A345577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TennisAnalysis/Pods-TennisAnalysis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TennisAnalysis/Pods-TennisAnalysis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TennisAnalysis/Pods-TennisAnalysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB6E655B274EEBF90048F4E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0CBF4C27893C82007CE4CE /* MyUINavigationViewController.swift in Sources */,
+				CB6E6596275770960048F4E5 /* userPageViewController.swift in Sources */,
+				CB6E6577274EECBD0048F4E5 /* SigninViewController.swift in Sources */,
+				CB0CBF462774C43A007CE4CE /* ScoreViewController.swift in Sources */,
+				CBAFE693278EE9FB005D6186 /* ShowEditViewController.swift in Sources */,
+				CB0CBF54278DBE51007CE4CE /* ShowViewController.swift in Sources */,
+				CB6E659327576A750048F4E5 /* SyosaiTableViewCell.swift in Sources */,
+				CBCA8770278EC41B00C9AE73 /* EditProfileViewController.swift in Sources */,
+				CB0CBF52278998BB007CE4CE /* Sub2ViewController.swift in Sources */,
+				CB6E658F2756D9EF0048F4E5 /* CustomTableViewCell.swift in Sources */,
 				CB6E6567274EEBF90048F4E5 /* ViewController.swift in Sources */,
+				CB66E181279C39D000B44F4D /* CustomCollectionViewCell.swift in Sources */,
+				CB6E6598275EC7790048F4E5 /* NewValueViewController.swift in Sources */,
 				CB6E6563274EEBF90048F4E5 /* AppDelegate.swift in Sources */,
+				CB012DE027703CFF00A0D916 /* SubViewController.swift in Sources */,
+				CB6E659A2760101F0048F4E5 /* PckerViewController.swift in Sources */,
+				CB6E6582274EFB070048F4E5 /* SignUpViewController.swift in Sources */,
+				CB0CBF4827856D42007CE4CE /* DetailViewController.swift in Sources */,
+				CB6E6584274F01170048F4E5 /* sViewController.swift in Sources */,
 				CB6E6565274EEBF90048F4E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +468,7 @@
 		};
 		CB6E6574274EEBFC0048F4E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC57B3C0E47CC311452129E /* Pods-TennisAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +479,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +497,7 @@
 		};
 		CB6E6575274EEBFC0048F4E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470B833A0E13BCC4FDDB7851 /* Pods-TennisAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +508,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
